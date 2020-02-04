@@ -1,0 +1,20 @@
+my_list = ['rock','bob','thor']
+def additem(item):
+             my_list.append(item)
+
+def update(index,item):
+             my_list[index]=item
+def remove(item):
+             my_list.remove(item)
+def search(index):
+             return(my_list[index])
+
+additem('ram')
+print(my_list)
+update(1,'jack')
+print(my_list)
+remove('ram')
+print(my_list)
+my_list.pop(0)
+print(my_list)
+print(search(0))
